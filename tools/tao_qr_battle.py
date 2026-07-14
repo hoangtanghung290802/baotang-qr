@@ -12,9 +12,9 @@ from PIL import Image, ImageOps
 
 BASE_URL = "https://hoangtanghung290802.github.io/baotang-qr"
 
-JSON_FILE = "../data/museum.json"
+JSON_FILE = "../data/battles.json"
 LOGO_FILE = "../logo/sudoan5.png"
-OUTPUT_DIR = "../qr"
+OUTPUT_DIR = "../qr-battle/output"
 
 QR_SIZE = 1000
 LOGO_PERCENT = 0.16
@@ -31,13 +31,13 @@ def clean_filename(name):
 
 
 with open(JSON_FILE, "r", encoding="utf-8") as f:
-    data = json.load(f)
+    battles = json.load(f)
 
 logo = Image.open(LOGO_FILE).convert("RGBA")
 
-for item in data:
+for battle in battles:
 
-    url = f"{BASE_URL}/artifact.html?stt={item['stt']}"
+    url = f"{BASE_URL}/battle.html?id={battle['id']}"
 
     qr = qrcode.QRCode(
         version=None,
@@ -82,7 +82,7 @@ for item in data:
         fill=(210, 0, 0)
     )
 
-    filename = clean_filename(item["ten"]) + ".png"
+    filename = clean_filename(battle["title"]) + ".png"
 
     img.save(
         os.path.join(OUTPUT_DIR, filename)

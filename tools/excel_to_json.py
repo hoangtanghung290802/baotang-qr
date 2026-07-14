@@ -15,14 +15,13 @@ for row in ws.iter_rows(min_row=3, values_only=True):
     tinhtrang = str(row[3]).strip() if row[3] else ""
     ghichu = str(row[4]).strip() if row[4] else ""
 
-    # Bắt đầu hiện vật mới
     if stt is not None:
 
         if current:
             items.append(current)
 
         current = {
-            "id": f"HV{int(stt):04}",
+            "stt": int(stt),
             "ten": ten,
             "sohieu": [],
             "tinhtrang": [],
@@ -36,6 +35,7 @@ for row in ws.iter_rows(min_row=3, values_only=True):
             current["tinhtrang"].append(tinhtrang)
 
     else:
+
         if current is None:
             continue
 
