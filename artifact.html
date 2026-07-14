@@ -49,13 +49,16 @@
 <script>
 
 const params = new URLSearchParams(window.location.search);
-const id = params.get("id");
 
-fetch("data/museum.json")
+const stt = Number(params.get("stt"));
+
+fetch("data/museum.json?v=" + Date.now())
+
 .then(res=>res.json())
+
 .then(data=>{
 
-const item=data.find(x=>x.id===id);
+const item=data.find(x=>Number(x.stt)===stt);
 
 if(!item){
 
@@ -65,9 +68,9 @@ return;
 
 }
 
-/* ===== HIỆN VẬT ĐẦU TIÊN ===== */
+/* ===== HIỆN VẬT STT 1 ===== */
 
-if(item.id==="HV0001"){
+if(item.stt===1){
 
 const ten=item.ten.split(";").map(x=>x.trim());
 
@@ -194,6 +197,7 @@ document.getElementById("detail").innerHTML=`
 `;
 
 })
+
 .catch(()=>{
 
 document.getElementById("detail").innerHTML="<h2>Lỗi tải dữ liệu.</h2>";

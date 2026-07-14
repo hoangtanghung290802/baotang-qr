@@ -1,4 +1,4 @@
-fetch("data/museum.json")
+fetch("data/museum.json?v=" + Date.now())
 .then(response => response.json())
 .then(data => {
 
@@ -51,7 +51,7 @@ fetch("data/museum.json")
 
             list.innerHTML += `
 
-            <div class="card" onclick="window.location='artifact.html?id=${item.id}'">
+            <div class="card" onclick="window.location='artifact.html?stt=${item.stt}'">
 
                 <h3>${item.ten}</h3>
 

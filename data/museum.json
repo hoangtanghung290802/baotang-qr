@@ -1,6 +1,6 @@
 [
   {
-    "id": "HV0001",
+    "stt": 1,
     "ten": "Súng tiểu liên K56; Súng CKC; Súng AK",
     "sohieu": [
       "BTQK7.220.K3.123",
@@ -14,7 +14,7 @@
     "ghichu": "Súng tiểu liên K56, CKC, AK của chiến sỹ d1/e4 sử dụng trong trận chiến đấu bảo vệ căn cứ Tầm Bó."
   },
   {
-    "id": "HV0002",
+    "stt": 2,
     "ten": "Súng CKC",
     "sohieu": [
       "- Bệ khóa nòng: 20260",
@@ -26,7 +26,7 @@
     "ghichu": "Súng CKC của chiến sỹ e4  sử dụng trong chiến đấu chống địch càng quét tại Long phước, Long khánh."
   },
   {
-    "id": "HV0003",
+    "stt": 3,
     "ten": "Súng AK",
     "sohieu": [
       "Bên dưới thước ngắm: 57143"
@@ -37,7 +37,7 @@
     "ghichu": "Súng AK của dũng sỹ diệt mỹ, dũng sỹ diệt xe cơ giới trong chiến dịch mùa khô (1966-1967)"
   },
   {
-    "id": "HV0004",
+    "stt": 4,
     "ten": "Súng B41",
     "sohieu": [
       "Ở tay cầm: 722151 (9337)"
@@ -48,7 +48,7 @@
     "ghichu": "Đồng chí Lễ Hữu Nghĩa thuộc e4 sử dụng tiêu diệt xe thiết giáp đi đầu của địch."
   },
   {
-    "id": "HV0005",
+    "stt": 5,
     "ten": "Súng B41",
     "sohieu": [
       "Ở tay cầm: 56.1.40 (67)"
@@ -59,7 +59,7 @@
     "ghichu": "Của chiến sỹ Sư đoàn sử dụng trong trận chiến đấu bảo vệ căn cứ Tầm Bó."
   },
   {
-    "id": "HV0006",
+    "stt": 6,
     "ten": "Súng AR15",
     "sohieu": [],
     "tinhtrang": [
@@ -68,7 +68,7 @@
     "ghichu": "Do e5 thu được của địch trong trận đánh Ngã ba Ông Đồn, Xuân lộc, Đồng Nai (17-18/5/1966)."
   },
   {
-    "id": "HV0007",
+    "stt": 7,
     "ten": "Súng AR15",
     "sohieu": [
       "Ở thân súng: 82"
@@ -79,7 +79,7 @@
     "ghichu": "Do e4 thu được trong trận đánh tiêu diệt địch ở Võ Xu, Bình Thuận."
   },
   {
-    "id": "HV0008",
+    "stt": 8,
     "ten": "Súng cạc bin",
     "sohieu": [],
     "tinhtrang": [
@@ -88,21 +88,21 @@
     "ghichu": "Do d500 thu được trong trận đánh tiêu diệt địch ở Liên khu Hiếu Liên  đêm 16/3/1961."
   },
   {
-    "id": "HV0009",
+    "stt": 9,
     "ten": "Nòng súng; PK 12,7",
     "sohieu": [],
     "tinhtrang": [],
     "ghichu": "Do e33 thu được trong trận đánh tiêu diệt địch trên Đường số 2, Bến củi."
   },
   {
-    "id": "HV0010",
+    "stt": 10,
     "ten": "Dao găm",
     "sohieu": [],
     "tinhtrang": [],
     "ghichu": "Thu được trong trận tập kích tiêu diệt địch ở Đồi Xiêm, Vũng Tàu (01/3/1966)."
   },
   {
-    "id": "HV0011",
+    "stt": 11,
     "ten": "Súng AK",
     "sohieu": [
       "Ở thân súng: 17006618"
@@ -114,7 +114,7 @@
     "ghichu": "Súng sử dụng trong trận chiến đấu tiến công tiêu diệt Căn cứ Tà Tum, Tà Lốc (05/3/1985)."
   },
   {
-    "id": "HV0012",
+    "stt": 12,
     "ten": "Súng AK; báng gập",
     "sohieu": [
       "Ở thân súng: 56"
@@ -126,7 +126,7 @@
     "ghichu": "Súng sử dụng trong trận chiến đấu tiến công tiêu diệt Căn cứ Mông Chăm."
   },
   {
-    "id": "HV0013",
+    "stt": 13,
     "ten": "Súng B41",
     "sohieu": [
       "Ở tay cầm: 4704"
@@ -134,10 +134,10 @@
     "tinhtrang": [
       "- Có tay sách súng"
     ],
-    "ghichu": ""
+    "ghichu": "Súng sử dụng trong trận chiến đấu tiến công tiêu diệt Căn cứ Mông Chăm."
   },
   {
-    "id": "HV0001",
+    "stt": 14,
     "ten": "Súng ĐKZ",
     "sohieu": [
       "- Ở đuôi: 327",
@@ -150,7 +150,7 @@
     "ghichu": "Được cán bộ, chiến sĩ Sư đoàn 5 sử dụng trong chiến đấu bảo vệ căn cứ Tầm Bó (10/4/1966)"
   },
   {
-    "id": "HV0002",
+    "stt": 15,
     "ten": "Súng Đại liên K56",
     "sohieu": [
       "- Ở thân súng: 193477 (236)"
@@ -161,7 +161,7 @@
     "ghichu": "Được cán bộ, chiến sĩ Sư đoàn 5 sử dụng trong chiến dịch mùa khô năm 1966 - 1967"
   },
   {
-    "id": "HV0003",
+    "stt": 16,
     "ten": "Cối 60",
     "sohieu": [
       "- Thân súng: 170146"
@@ -172,7 +172,7 @@
     "ghichu": "Súng Cối 60 của d3/e4 sử dụng trong chiến đấu tiến công căn cứ d52 Cọp Đen ngụy (31/6/1966)."
   },
   {
-    "id": "HV0004",
+    "stt": 17,
     "ten": "Súng M79",
     "sohieu": [
       "- BTQK7.237.K3.140"
@@ -183,7 +183,7 @@
     "ghichu": "Thu được của địch trong trận chiến đấu tiến công tiêu diệt dBBCG Mỹ tại Đường số 02, Bến Củi."
   },
   {
-    "id": "HV0005",
+    "stt": 18,
     "ten": "Súng M79",
     "sohieu": [
       "- Thân súng: 27726"
@@ -191,10 +191,10 @@
     "tinhtrang": [
       "- Có thước ngắm cơ khí."
     ],
-    "ghichu": ""
+    "ghichu": "Thu được của địch trong trận chiến đấu tiến công tiêu diệt dBBCG Mỹ tại Đường số 02, Bến Củi."
   },
   {
-    "id": "HV0006",
+    "stt": 19,
     "ten": "Thân Súng; Đại liên M52",
     "sohieu": [
       "- Thân súng: 1507307"
@@ -206,7 +206,7 @@
     "ghichu": "Thu được của địch trong trận chiến đấu tiến công tiêu diệt cứ điểm Tầm Bó."
   },
   {
-    "id": "HV0007",
+    "stt": 20,
     "ten": "Xác tên lửa; Liên Xô",
     "sohieu": [
       "- Thân: 28-73"
@@ -215,7 +215,7 @@
     "ghichu": ""
   },
   {
-    "id": "HV0008",
+    "stt": 21,
     "ten": "02 Đạn B41",
     "sohieu": [
       "- BTQK7.79.K3.9"
@@ -226,7 +226,7 @@
     "ghichu": ""
   },
   {
-    "id": "HV0009",
+    "stt": 22,
     "ten": "Súng CKC",
     "sohieu": [
       "- Thân súng: 10265595",
@@ -239,7 +239,7 @@
     "ghichu": "Súng được sử dụng trong chiến đấu tiến công Phú Mỹ - Long Thành."
   },
   {
-    "id": "HV0010",
+    "stt": 23,
     "ten": "Súng B40",
     "sohieu": [
       "- Ở bệ tay cầm: (4715)"
@@ -247,10 +247,10 @@
     "tinhtrang": [
       "- Có thước ngắm cơ khí."
     ],
-    "ghichu": ""
+    "ghichu": "Súng được sử dụng trong chiến đấu tiến công Phú Mỹ - Long Thành."
   },
   {
-    "id": "HV0011",
+    "stt": 24,
     "ten": "Súng B40",
     "sohieu": [
       "- Ở bệ tay cầm: (9337)"
@@ -258,10 +258,10 @@
     "tinhtrang": [
       "- Có thước ngắm cơ khí."
     ],
-    "ghichu": ""
+    "ghichu": "Súng được sử dụng trong chiến đấu tiến công Phú Mỹ - Long Thành."
   },
   {
-    "id": "HV0012",
+    "stt": 25,
     "ten": "Súng B40",
     "sohieu": [
       "- Ở bệ tay cầm: (57)"
@@ -270,10 +270,10 @@
       "- Có thước ngắm cơ khí.",
       "- Không có ốp bọc nòng"
     ],
-    "ghichu": ""
+    "ghichu": "Súng được sử dụng trong chiến đấu tiến công Phú Mỹ - Long Thành."
   },
   {
-    "id": "HV0013",
+    "stt": 26,
     "ten": "Vỏ đạn pháo",
     "sohieu": [
       "BTQK7.59.K1.2"
@@ -282,7 +282,7 @@
     "ghichu": "Đạn pháo của ta sử dụng trong chiến đấu tiến công Long khánh - Biên Hòa"
   },
   {
-    "id": "HV0014",
+    "stt": 27,
     "ten": "Khẩu Cối 82 và đế",
     "sohieu": [
       "BTQK7. 992.K3.365"
@@ -291,7 +291,7 @@
     "ghichu": "Được sử dụng trong chiến đấu tiến công căn cứ Suối Râm"
   },
   {
-    "id": "HV0015",
+    "stt": 28,
     "ten": "Súng Đại liên",
     "sohieu": [
       "- Ở thân súng: 114302"
@@ -302,63 +302,63 @@
     "ghichu": "Được sử dụng trong chiến đấu tiến công căn cứ Lộc Ninh"
   },
   {
-    "id": "HV0016",
+    "stt": 29,
     "ten": "Ống đựng vỏ đạn ĐKZ82",
     "sohieu": [],
     "tinhtrang": [],
     "ghichu": "Được sử dụng trong chiến đấu tiến công  giải phóng Thị xã CrôChê."
   },
   {
-    "id": "HV0017",
+    "stt": 30,
     "ten": "Máy khoan bàn Z512-2",
     "sohieu": [],
     "tinhtrang": [],
     "ghichu": "Dùng lắp đặt trên xe công trình CA-30 Trung Quốc, trạm sử chữa kỹ thuật của Sư đoàn trong giai đoạn 1975 - 1982"
   },
   {
-    "id": "HV0018",
+    "stt": 31,
     "ten": "Máy BRC",
     "sohieu": [],
     "tinhtrang": [],
     "ghichu": "Do Tiểu đoàn 3 Trung đoàn 5 thu được của địch trong trận tập kích quân mỹ tại Trảng ông Liên, Cầu Ván đêm 18/5/1961"
   },
   {
-    "id": "HV0019",
+    "stt": 32,
     "ten": "Xe đạp thồ của đơn vị 84 cục Hậu cần miền B2",
     "sohieu": [],
     "tinhtrang": [],
     "ghichu": "Dùng vận chuyển hàng ngàn tấn lương thực, đạn dược tiếp tế cho F5 trên chiến trường Miền Đông"
   },
   {
-    "id": "HV0020",
+    "stt": 33,
     "ten": "Máy may của PHC",
     "sohieu": [],
     "tinhtrang": [],
     "ghichu": "Sử dụng trong những năm Sư đoàn chiến đấu chống mỹ trên chiến trường Bà Rịa – Long Khánh"
   },
   {
-    "id": "HV0021",
+    "stt": 34,
     "ten": "Máy KOHLER CO USA N SERIAL No 5241439",
     "sohieu": [],
     "tinhtrang": [],
     "ghichu": "Thu được của địch tại CPC trong trận đánh căn cứ AMPIN năm 1985"
   },
   {
-    "id": "HV0022",
+    "stt": 35,
     "ten": "Tivi SANYO",
     "sohieu": [],
     "tinhtrang": [],
     "ghichu": "Thu được của địch trong chiến dịch AMPIN (07/01/1985 – 08/01/1985)"
   },
   {
-    "id": "HV0023",
+    "stt": 36,
     "ten": "Máy phát điện",
     "sohieu": [],
     "tinhtrang": [],
     "ghichu": "Dùng để chiếu phim cho bộ đội và Nhân dân biên giới Tây Nam trong những năm giúp bạn CAMPUCHIA"
   },
   {
-    "id": "HV0024",
+    "stt": 37,
     "ten": "Trống Đồng",
     "sohieu": [],
     "tinhtrang": [],
