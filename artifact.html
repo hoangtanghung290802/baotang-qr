@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Chi tiết hiện vật</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header class="top-header">
+
+<div class="container">
+
+<img src="images/logo.png" class="logo">
+
+<h1>CHI TIẾT HIỆN VẬT</h1>
+
+<p>Nhà truyền thống Sư đoàn 5</p>
+
+</div>
+
+</header>
+
+<main class="container">
+
+<a href="artifacts.html" class="back-btn">
+← Danh sách hiện vật
+</a>
+
+<div id="detail"></div>
+
+</main>
+
+<footer>
+
+<p><strong>NHÀ TRUYỀN THỐNG SƯ ĐOÀN 5</strong></p>
+
+<p>Hệ thống tra cứu hiện vật bằng mã QR</p>
+
+</footer>
+
+<script>
+
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+fetch("data/museum.json")
+.then(res=>res.json())
+.then(data=>{
+
+const item=data.find(x=>x.id===id);
+
+if(!item){
+
+document.getElementById("detail").innerHTML="<h2>Không tìm thấy hiện vật.</h2>";
+
+return;
+
+}
+
+/* ===== HIỆN VẬT ĐẦU TIÊN ===== */
+
+if(item.id==="HV0001"){
+
+const ten=item.ten.split(";").map(x=>x.trim());
+
+const sohieu=Array.isArray(item.sohieu)?item.sohieu:String(item.sohieu).split("\n");
+
+const tinhtrang=Array.isArray(item.tinhtrang)?item.tinhtrang:String(item.tinhtrang).split("\n");
+
+let html=`
+
+<div class="detail-card">
+
+<h2>${item.ten}</h2>
+
+<div class="weapon-grid">
+
+`;
+
+for(let i=0;i<3;i++){
+
+html+=`
+
+<div class="weapon-box">
+
+<h3>${ten[i]||""}</h3>
+
+<p><b>Số hiệu</b></p>
+
+<p>${sohieu[i]||""}</p>
+
+<hr>
+
+<p><b>Tình trạng kỹ thuật</b></p>
+
+<p>${tinhtrang[i]||""}</p>
+
+</div>
+
+`;
+
+}
+
+html+=`
+
+</div>
+
+<table>
+
+<tr>
+
+<td>Ghi chú</td>
+
+<td>${item.ghichu||""}</td>
+
+</tr>
+
+</table>
+
+</div>
+
+`;
+
+document.getElementById("detail").innerHTML=html;
+
+return;
+
+}
+
+/* ===== CÁC HIỆN VẬT KHÁC ===== */
+
+const soLieu=item.soluong
+?item.soluong
+:(Array.isArray(item.sohieu)
+?item.sohieu.join("<br>")
+:(item.sohieu||""));
+
+const tinhTrang=Array.isArray(item.tinhtrang)
+?item.tinhtrang.join("<br>")
+:(item.tinhtrang||"");
+
+document.getElementById("detail").innerHTML=`
+
+<div class="detail-card">
+
+<h2>${item.ten}</h2>
+
+<table>
+
+<tr>
+
+<td>Tên hiện vật</td>
+
+<td>${item.ten}</td>
+
+</tr>
+
+<tr>
+
+<td>${item.soluong?"Số lượng":"Số hiệu"}</td>
+
+<td>${soLieu}</td>
+
+</tr>
+
+<tr>
+
+<td>Tình trạng kỹ thuật</td>
+
+<td>${tinhTrang}</td>
+
+</tr>
+
+<tr>
+
+<td>Ghi chú</td>
+
+<td>${item.ghichu||""}</td>
+
+</tr>
+
+</table>
+
+</div>
+
+`;
+
+})
+.catch(()=>{
+
+document.getElementById("detail").innerHTML="<h2>Lỗi tải dữ liệu.</h2>";
+
+});
+
+</script>
+
+</body>
+
+</html>

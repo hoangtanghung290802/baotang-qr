@@ -1,0 +1,23 @@
+[
+    {
+        "id":"locninh",
+        "title":"CHIẾN THẮNG LỘC NINH",
+        "file":"documents/Trận chiến thắng Lộc Ninh.html",
+        "image":"images/battles/locninh.jpg",
+        "audio":"media/locninh.mp3"
+    },
+    {
+        "id":"lo4",
+        "title":"CHIẾN THẮNG LỘ 4 - TÂN AN",
+        "file":"documents/Trận chiến thắng Lộ 4 - Tân An.html",
+        "image":"images/battles/lo4.jpg",
+        "audio":"media/lo4.mp3"
+    },
+    {
+        "id":"ampin",
+        "title":"CHIẾN THẮNG AMPIN",
+        "file":"documents/Trận chiến thắng Ampin.html",
+        "image":"images/battles/ampin.jpg",
+        "audio":"media/ampin.mp3"
+    }
+]
